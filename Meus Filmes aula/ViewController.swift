@@ -100,11 +100,15 @@ class ViewController: UITableViewController{
         celula.tituloLabel.text = filme.titulo
         celula.descricaoLabel.text = filme.descricao
         
-        
         //criado antes da classe filmeCelula
         /*celula.textLabel?.text = filme.titulo
         celula.imageView?.image = filme.imagem*/
-    
+        /*
+        //criando o arredondamento da imagemview
+        celula.filmeImageView.layer.cornerRadius = 42
+        //clipsToBounds cortar até as bordas
+        //celula.filmeImageView.clipsToBounds = true
+        */
         
         //retornando o objeto celula do tipo UItableviewcell
         return celula
