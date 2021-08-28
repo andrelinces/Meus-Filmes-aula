@@ -113,6 +113,27 @@ class ViewController: UITableViewController{
         //retornando o objeto celula do tipo UItableviewcell
         return celula
     }
+    //Método utilizado para passar dados para outra tela, neste caso, passar a imagem e descrição.
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        //testar se a segue é a correta
+        
+        if segue.identifier == "detalheFilme"{
+            //Recuperando com o indexPath qual célula foi clicada.
+            if let indexPath = tableView.indexPathForSelectedRow {
+                
+                let filmeSelecionado = self.filmes [ indexPath.row ]
+                let viewControllerDestino = segue.destination as! DetalhesFilmeViewController
+                viewControllerDestino.filme = filmeSelecionado
+                
+            }
+            
+        }
+        
+        
+        
+        
+    }
     
 }
 
