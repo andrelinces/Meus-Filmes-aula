@@ -17,6 +17,7 @@
 		D348607B26D99D1C0038FB05 /* Meus_Filmes_aulaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D348607A26D99D1C0038FB05 /* Meus_Filmes_aulaTests.swift */; };
 		D348608626D99D1C0038FB05 /* Meus_Filmes_aulaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D348608526D99D1C0038FB05 /* Meus_Filmes_aulaUITests.swift */; };
 		D348609426D99E670038FB05 /* Filme.swift in Sources */ = {isa = PBXBuildFile; fileRef = D348609326D99E670038FB05 /* Filme.swift */; };
+		D348609626DA59070038FB05 /* FimeCelula.swift in Sources */ = {isa = PBXBuildFile; fileRef = D348609526DA59070038FB05 /* FimeCelula.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		D348608526D99D1C0038FB05 /* Meus_Filmes_aulaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meus_Filmes_aulaUITests.swift; sourceTree = "<group>"; };
 		D348608726D99D1C0038FB05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D348609326D99E670038FB05 /* Filme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filme.swift; sourceTree = "<group>"; };
+		D348609526DA59070038FB05 /* FimeCelula.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FimeCelula.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				D348606026D99D1B0038FB05 /* AppDelegate.swift */,
 				D348606226D99D1B0038FB05 /* SceneDelegate.swift */,
 				D348606426D99D1B0038FB05 /* ViewController.swift */,
+				D348609526DA59070038FB05 /* FimeCelula.swift */,
 				D348606626D99D1B0038FB05 /* Main.storyboard */,
 				D348609326D99E670038FB05 /* Filme.swift */,
 				D348606C26D99D1B0038FB05 /* Assets.xcassets */,
@@ -266,6 +269,7 @@
 			files = (
 				D348606B26D99D1B0038FB05 /* Meus_Filmes_aula.xcdatamodeld in Sources */,
 				D348606526D99D1B0038FB05 /* ViewController.swift in Sources */,
+				D348609626DA59070038FB05 /* FimeCelula.swift in Sources */,
 				D348609426D99E670038FB05 /* Filme.swift in Sources */,
 				D348606126D99D1B0038FB05 /* AppDelegate.swift in Sources */,
 				D348606326D99D1B0038FB05 /* SceneDelegate.swift in Sources */,

@@ -92,11 +92,18 @@ class ViewController: UITableViewController{
         
         //criando constante do identificador da celula de reuso da table view
         let celulaReuso = "celulaReuso"
-        //montando a célula, recuperando com indexPath e montando a celula com o indentificador celulaReuso
-        let celula = tableView.dequeueReusableCell(withIdentifier: celulaReuso, for: indexPath)
+        
+        //montando a célula, recuperando com indexPath e montando a celula com o indentificador celulaReuso, utilizando as! conversão para que o objeto celula tenha acesso a classe FilmeCelula
+        let celula = tableView.dequeueReusableCell(withIdentifier: celulaReuso, for: indexPath) as! FilmeCelula
         //exibindo a célula
-        celula.textLabel?.text = filme.titulo
-        celula.imageView?.image = filme.imagem
+        celula.filmeImageView.image = filme.imagem
+        celula.tituloLabel.text = filme.titulo
+        celula.descricaoLabel.text = filme.descricao
+        
+        
+        //criado antes da classe filmeCelula
+        /*celula.textLabel?.text = filme.titulo
+        celula.imageView?.image = filme.imagem*/
     
         
         //retornando o objeto celula do tipo UItableviewcell
